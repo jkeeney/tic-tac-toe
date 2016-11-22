@@ -26,6 +26,7 @@ class Game
 		end
 
 		@turn_count += 1
+		system "clear"
 		@board.display_board
 
 		result

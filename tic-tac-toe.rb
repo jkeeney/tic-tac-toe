@@ -7,6 +7,7 @@ player_x = Player.new('X', board)
 player_o = Player.new('O', board)
 game = Game.new(board, player_x, player_o)
 
+system "clear"
 board.display_board
 
 while game.game_over == false do 
